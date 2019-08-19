@@ -1,0 +1,109 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 726408,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User names test",
+        "description": "",
+        "id": "login;user-names-test",
+        "after": [
+          {
+            "result": {
+              "duration": 7445,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user logs in with following credentials \u003cusername\u003e and \u003cpassword\u003e",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "helpdesk13@cybertekschool.com",
+                  "UserUser"
+                ]
+              },
+              {
+                "cells": [
+                  "marketing13@cybertekschool.com",
+                  "UserUser"
+                ]
+              },
+              {
+                "cells": [
+                  "hr@cybertekschool.com",
+                  "UserUser"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8903,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Verify that user succesfully logged in",
+            "match": {
+              "location": "LoginStepDefinitions.verify_that_user_succesfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Britix"
+          },
+          {
+            "name": "@login_with_outline"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As user I want to login under different roles",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Britix",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
